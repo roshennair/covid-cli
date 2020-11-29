@@ -4,7 +4,7 @@ This is a small project I made the day after attending a Rust workshop hosted by
 
 ## Commands:
 
-- ```covid-cli global``` - Returns the global summary data
-- ```covid-cli <country-slug>``` - Returnst the local summary data for a specific country*.
+- ```covid-cli global``` - Prints the global summary data to the console.
+- ```covid-cli <country-slug>``` - Prints the local summary data for a specific country* to the console.
 
 \* In order to get a full list of country slug codes for each country, visit https://api.covid19api.com/countries.
