@@ -1,0 +1,21 @@
+[package]
+name = "covid-cli"
+version = "0.1.0"
+authors = ["Roshen Nair <roshen620@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "A tool that allows users to get the latest data on COVID-19 cases, deaths & recoveries on a global and local (country-based) scale"
+readme = "README.md"
+homepage = "https://github.com/roshennair/covid-cli"
+repository = "https://github.com/roshennair/covid-cli"
+keywords = ["cli", "rust", "covid", "covid-19", "pandemic"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+error-chain = "0.12.4"
+reqwest = { version = "0.10.9", features = ["blocking", "json"]}
+serde_json = "1.0.59"
+serde = { version = "1.0.117", features = ["derive"]}
+structopt = "0.3.13"
